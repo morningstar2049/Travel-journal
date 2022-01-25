@@ -4,11 +4,15 @@ import data from './data'
 
 function App() {
   const content = data.map(item => <MainContent
-                                      item={item}/>)
+                                      item={item}
+                                      />)
   return (
     <div className="App">
       <Header/>
-      {content}
+      <div className='main-container'>
+        {content}
+
+      </div>
          
         
       

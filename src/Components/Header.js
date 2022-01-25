@@ -1,4 +1,4 @@
-import earthIcon from '../images/earth vector.png'
+import earthIcon from '../images/whiteearth.png'
 
 function Header(){
     return(
